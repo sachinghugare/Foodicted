@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Italian">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Italian"
+            android:textColor="#000000"
+
+            />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="430dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:padding="15dp"
+            android:layout_alignParentLeft="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Paneer Makhnai(₹395)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/paneer_makhnai_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="paneer_makhnai_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/paneer_makhnai_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/paneer_makhnai_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="Paneer_makhnai_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Margherita(₹199)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:id="@+id/margherita_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="margheritea_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/margherita_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/margherita_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="margheritea_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Veggie Paradise(₹395)"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/veggie_paradise_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="veggie_paradise_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/veggie_paradise_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/beggie_paradise_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="veggie_paradise_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Veg Extravaganza(₹450)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/veg_extra_in"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="extra_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/veg_extxra_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/veg_extra_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="extra_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+
+                        android:padding="10dp"
+                        android:text="Spaghetti(₹120)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/spaghetti_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="sp_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/spaghetti_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/spaghetti_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="sp_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Rigafoni(₹150)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <Button
+                            android:id="@+id/rigafoni_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="rigafoni_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rigafoni_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/rigafoni_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="rigafoni_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Peppy Paneer(₹100)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/peppy_paneer_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="peppy_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+
+                            android:id="@+id/peppy_paneer_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/peppy_paneer_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="peppy_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Farmhouse(₹80)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/farmhouse_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="farmhouse_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/farmhouse_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/farmhouse_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="farmhouse_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="MM"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:padding="10dp"
+                        android:text="Mexican Green Wave(₹180)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/mex_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="mex_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mex_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/mex_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="mex_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="10dp"
+                        android:text="Cheese n Corn(₹120)"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/corn_inc"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="corn_inc1"
+                            android:text="+"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/corn_order"
+                            android:layout_width="34dp"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:paddingBottom="10dp"
+                            android:text="__"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp" />
+
+                        <Button
+                            android:id="@+id/corn_dec"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:background="#ffbc7a"
+
+                            android:onClick="corn_dec1"
+                            android:text="-"
+                            android:textColor="@android:color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/dessert_tot_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_alignEnd="@+id/scrollView"
+            android:layout_marginEnd="49dp"
+            android:padding="10dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_alignRight="@+id/scrollView"
+            android:layout_marginRight="49dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="-34dp"
+            android:background="#ffbc7a"
+            android:onClick="MM"
+            android:text="Main Menu" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="297dp"
+
+            android:layout_marginLeft="297dp"
+            android:layout_marginTop="8dp"
+            android:background="#ffbc7a"
+            android:onClick="Process"
+            android:text="Proceed" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
